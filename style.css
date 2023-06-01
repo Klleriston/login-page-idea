@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Roboto+Mono:ital,wght@1,500&display=swap');
+:root {
+    --colorB1: rgba(24, 47, 93, 1);
+    --colorW: #fff;
+    --colorWG: #f5eded;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(45,67,253);
+background: linear-gradient(rgba(69, 85, 224, 0.800), rgb(255, 255, 255));
+background-repeat:no-repeat;
+}
+section.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 10rem 0 10rem;
+    align-self: center;
+}
+form {
+    height: 100%;
+    background: var(--colorW);
+    padding: 4rem;
+    margin-top: 8rem;
+    box-shadow: 0px 0px 5px 0px rgba(69, 84, 224, 0.281);
+}
+.maintxt {
+    text-align: center;
+}
+.subtxt {
+    margin: 2rem 0 2rem;
+}
+.Ltext, .Lpass {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: var(--colorWG);
+    border: none;
+    
+}   
+.mantLog {
+    display: flex;
+    justify-content: space-between;
+}
+.juntoInput {
+  margin-right: 2rem;  
+}
+a {
+ text-decoration: none;
+}
+.submite {
+    width: 20rem;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: var(--colorB1);
+}
+.img {
+    margin-block-start: 4rem;
+    width: 50rem;
+    height: 30rem;
+    font-family: 'Comic Neue', cursive;
+}
+svg {
+    width: 50rem;
+    height: 50rem;
+}
